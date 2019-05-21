@@ -20,109 +20,70 @@ h2 {
 p {
 
 }
-
-#header {
-  height: 500px;
-  border: 1px solid #000;
-  overflow: hidden;
-  z-index: 0;
-  position: relative;
+#header{
+	height :500px;
+	border :1px solid #000;
+	overflow:hidden;
+	z-index:0;
+	position:relative;
 }
+#header video{
+	width:100%;
+	position: relative;
+	top: -80px;
 
-#header video {
-  width: 100%;
-  position: relative;
-  top: -80px;
 }
-
-#navigation-main {
-  
-}
-
-#navigation-main ul li  {
-  display: inline;
-}
-
-#container-main {
+#container--main {
   width: 1200px;
   margin: 0 auto;
 }
 
-#container-inner {
-  position: relative;
+#container--inner {
+	position: relative;
   width: 100%;
   padding: 20px;
   border-radius: 15px;
   border: 1px solid #000;
+  background-color: #fff;
   top: -135px;
   margin-bottom: -100px;
-  background-color: #fff;
 }
+#navigation--main{
+	width:auto;
+	background-color:#f0f0f0;
+	border-radius: 5px;
+	padding: 20px;
+	text-align: center;
+	margin-bottom: 30px;
 
+}
+#navigation--main ul li{
+	display: inline;
+}
+#navigation--main ul li a {
+	padding: 5px 70px;
+	color:#7e7e7e;
+	text-decoration: none;
+	text-transform: uppercase;
+
+}
+#navigation--main ul li a:hover{
+background-color: white;
+	border-radius: 10px;
+	box-shadow: 2px 5px rgba(0,0,0,0.1);
+}
+.active{
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: 2px 5px rgba(0,0,0,0.1);
+}
 .content-module {
   display: flex;
   justify-content: space-between;
 }
-
-.intro-section {
-  text-align: center;
+.intro-section{
+	
 }
-
-.inner-intro-section {
-  display: flex;
-}
-
-.image-module img {
-  width: 100%;
-}
-
-.text-module {
-  text-align: center;
-}
-
-.text-module-content {
-  display: flex;
-  justify-content: space-between
-}
-
-.text-module-content > div {
-  width: 48%;
-}
-
-.text-module-content p {
-  text-align: left;
-}
-
-.promo-module {
-  text-align: center;
-}
-
-.inner-promo-module {
-  display: flex;
-}
-
-.promo-module img {
-  width: 100%;
-}
-
-.promo-module figure {
-  margin: 0 10px 0 0;
-}
-
-footer {
-  width: 50%;
-  margin: 0 auto;
-}
-
-footer ul {
-  list-style: none;
-}
-
-footer ul li {
-  display: inline;
-  
-}
-
-footer .social-media {
-  display: inline;
+.innner-intro-section{
+	display: flex;
 }
