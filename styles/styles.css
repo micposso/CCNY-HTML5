@@ -4,34 +4,31 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 18px;
   line-height: 24px;
 }
 
 h1 {
-
 }
 
 h2 {
-
 }
 
 p {
-
 }
-#header{
-	height :500px;
-	border :1px solid #000;
-	overflow:hidden;
-	z-index:0;
-	position:relative;
-}
-#header video{
-	width:100%;
-	position: relative;
-	top: -80px;
 
+#header {
+  height: 500px;
+  border: 1px solid #000;
+  overflow: hidden;
+  z-index: 0;
+  position: relative;
+}
+#header video {
+  width: 100%;
+  position: relative;
+  top: -80px;
 }
 #container--main {
   width: 1200px;
@@ -39,7 +36,7 @@ p {
 }
 
 #container--inner {
-	position: relative;
+  position: relative;
   width: 100%;
   padding: 20px;
   border-radius: 15px;
@@ -48,42 +45,47 @@ p {
   top: -135px;
   margin-bottom: -100px;
 }
-#navigation--main{
-	width:auto;
-	background-color:#f0f0f0;
-	border-radius: 5px;
-	padding: 20px;
-	text-align: center;
-	margin-bottom: 30px;
 
+#navigation--main {
+  width: auto;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 30px;
 }
-#navigation--main ul li{
-	display: inline;
+
+#navigation--main ul li {
+  display: inline;
 }
+
 #navigation--main ul li a {
-	padding: 5px 70px;
-	color:#7e7e7e;
-	text-decoration: none;
-	text-transform: uppercase;
+  padding: 5px 70px;
+  color: #7e7e7e;
+  text-decoration: none;
+  text-transform: uppercase;
+}
 
+#navigation--main ul li a:hover {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 2px 5px rgba(0, 0, 0, 0.1);
 }
-#navigation--main ul li a:hover{
-background-color: white;
-	border-radius: 10px;
-	box-shadow: 2px 5px rgba(0,0,0,0.1);
+
+.active {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 2px 5px rgba(0, 0, 0, 0.1);
 }
-.active{
-	background-color: white;
-	border-radius: 10px;
-	box-shadow: 2px 5px rgba(0,0,0,0.1);
-}
+
 .content-module {
   display: flex;
   justify-content: space-between;
 }
-.intro-section{
-	
+
+.intro-section {
+
 }
-.innner-intro-section{
-	display: flex;
+.innner-intro-section {
+  display: flex;
 }
