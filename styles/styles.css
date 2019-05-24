@@ -35,16 +35,17 @@ p {
 #header video {
   width: 100%;
   position: relative;
-  top: -80px;
+  top: -300px;
 }
 
 .video-header {
   position: relative;
-  top: -730px;
+  top: 60px;
   width: 520px;
   margin: 0 auto;
   text-align: center;
   color: #fff;
+  z-index: 100;
 }
 
 .video-header svg {
@@ -127,6 +128,7 @@ a.button {
 
 .major h2 {
   margin: 15px 0 30px 0;
+  text-align: center;
 }
 
 .intro-section {
@@ -137,9 +139,63 @@ a.button {
 .inner-intro-section {
   display: flex;
   text-align: center;
+  height: 330px;
+}
+
+.inner-intro-section div {
+  margin: 0 20px;
+}
+
+.inner-intro-section svg {
+  height: 125px;
+  transition: height 0.5s;  
+}
+
+.inner-intro-section svg:hover {
+  height: 160px;
 }
 
 .image-module img {
   width: 100%;
 }
 
+.text-module {
+  padding: 0 30px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  margin: 30px 0;
+}
+
+.text-module-content p {
+  padding: 0 10px;
+}
+
+.text-module a.button {
+  margin: 30px auto;
+}
+
+.text-module-content {
+  display: flex;
+}
+
+.inner-promo-module {
+  display: flex;
+}
+.inner-promo-module figure {
+  margin: 0 10px;
+  text-align: center;
+}
+
+.inner-promo-module figure img {
+  width: 100%;
+}
+
+.promo-module footer {
+  display: flex;
+  margin: 0 auto;
+  width: 470px;
+}
+
+.promo-module footer a.button {
+  margin: 20px 10px 0;
+}
